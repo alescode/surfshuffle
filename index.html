@@ -13,6 +13,7 @@
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
     <link href="css/surfshuffle.css" rel="stylesheet" type="text/css">
+    <link href="css/mailchimp.css" rel="stylesheet" type="text/css">
 
     <!-- Fonts -->
     <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
@@ -37,25 +38,14 @@
                         <span class="skills">The best waves are the ones we didn't plan for.</span>
                     </div>
                     <br/>
-                    <a href="#" class="btn btn-lg btn-outline">
-                        Sign up
-                    </a>
-
-                    <!-- Begin MailChimp Signup Form -->
-                    <link href="//cdn-images.mailchimp.com/embedcode/slim-081711.css" rel="stylesheet" type="text/css">
-                    <style type="text/css">
-                        #mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif;  width:370px;}
-                        /* Add your own MailChimp form style overrides in your site stylesheet or in this style block.
-                        We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
-                    </style>
-                    <div id="mc_embed_signup">
-                    <form action="http://surfshuffle.us8.list-manage.com/subscribe/post?u=75ace40170d14ce5ef0f8737f&amp;id=82942e56ba" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-                        <label for="mce-EMAIL">Be the first to know when we're ready for you!</label>
-                        <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
-                        <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                    <div id="mc_embed_signup" class="center-div">
+                        <form action="http://surfshuffle.us8.list-manage.com/subscribe/post?u=75ace40170d14ce5ef0f8737f&amp;id=82942e56ba" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+                            <div class="more-margin"><input type="email" value="" name="EMAIL" class="email more-margin" id="mce-EMAIL" placeholder="Your e-mail address" required></div>
                         <div style="position: absolute; left: -5000px;"><input type="text" name="b_75ace40170d14ce5ef0f8737f_82942e56ba" tabindex="-1" value=""></div>
-                        <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
-                    </form>
+                        <a class="btn btn-lg btn-outline">
+                            <input type="submit" value="Sign up" name="subscribe" id="mc-embedded-subscribe">
+                        </a>
+                        </form>
                     </div>
                                         
                 </div>
@@ -67,9 +57,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-sm-4 portfolio-item">
-                    <a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">
-                        <img src="img/board.png" class="img-responsive" alt="" />
-                    </a>
+                    <img src="img/board.png" class="img-responsive" alt="" />
                     <p class="title">Borrow boards from surfers around the world</p>
                     <p class="description">
                     We know it's lame when you're away from your board,
@@ -77,14 +65,7 @@
                     </p>
                 </div>
                 <div class="col-sm-4 portfolio-item">
-                    <a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <i class="fa fa-search-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="img/community.png" class="img-responsive" alt="" />
-                    </a>
+                    <img src="img/community.png" class="img-responsive" alt="" />
                     <p class="title">Be a part of local surf communities everywhere</p>
                     <p class="description">
                     Engage in conversations about sharing rides to the best surf spots
@@ -92,14 +73,7 @@
                     </p>
                 </div>
                 <div class="col-sm-4 portfolio-item">
-                    <a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <i class="fa fa-search-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="img/save.png" class="img-responsive" alt="" />
-                    </a>
+                    <img src="img/save.png" class="img-responsive" alt="" />
                     <p class="title">Stop spending your travel budget on crazy airline fees</p>
                     <p class="description">
                     Try not taking your board on your next surfing trip. It might seem a bit scary,
@@ -110,74 +84,30 @@
         </div>
     </section>
 
-    <section id="contact">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2>Contact Me</h2>
-                    <hr class="star-primary">
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-8 col-lg-offset-2">
-                    <form role="form">
-                        <div class="row">
-                            <div class="form-group col-xs-12 floating-label-form-group">
-                                <label for="name">Name</label>
-                                <input class="form-control" type="text" name="name" placeholder="Name">
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="form-group col-xs-12 floating-label-form-group">
-                                <label for="email">Email Address</label>
-                                <input class="form-control" type="email" name="email" placeholder="Email Address">
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="form-group col-xs-12 floating-label-form-group">
-                                <label for="message">Message</label>
-                                <textarea placeholder="Message" class="form-control" rows="5"></textarea>
-                            </div>
-                        </div>
-                        <br>
-                        <div class="row">
-                            <div class="form-group col-xs-12">
-                                <button type="submit" class="btn btn-lg btn-success">Send</button>
-                            </div>
-                        </div>
-                    </form>
-                </div>
-            </div>
-        </div>
-    </section>
-
     <footer class="text-center">
         <div class="footer-above">
             <div class="container">
                 <div class="row">
                     <div class="footer-col col-md-4">
-                        <h3>Location</h3>
-                        <p>3481 Melrose Place
-                            <br>Beverly Hills, CA 90210</p>
+                        <h3>Headquarters</h3>
+                        <p><a href="http://www.m-iti.org">Madeira Interactive Technologies Institute</a>,
+                        Caminho da Penteada,
+                        9020-105 Funchal<br/>Portugal</p>
                     </div>
                     <div class="footer-col col-md-4">
-                        <h3>Around the Web</h3>
+                        <h3>Get in touch</h3>
                         <ul class="list-inline">
                             <li><a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-facebook"></i></a>
                             </li>
-                            <li><a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-google-plus"></i></a>
-                            </li>
                             <li><a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-twitter"></i></a>
                             </li>
-                            <li><a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-linkedin"></i></a>
-                            </li>
-                            <li><a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-dribbble"></i></a>
+                            <li><a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-envelope"></i></a>
                             </li>
                         </ul>
                     </div>
                     <div class="footer-col col-md-4">
                         <h3>About Us</h3>
-                        <p>Coming soon, <a href="http://startbootstrap.com">Start Bootstrap</a>.</p>
+                        <p>We're students of design and technology living on an amazing island that local surfers love to call <a href="http://www.pontadosol.com/?page_id=3745">the Hawaii of Europe</a>.</p>
                     </div>
                 </div>
             </div>
@@ -186,7 +116,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12">
-                        Copyright &copy; 2014 - Your Name
+                        Copyright &copy; 2014 - Surf Shuffle
                     </div>
                 </div>
             </div>

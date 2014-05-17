@@ -474,3 +474,7 @@ footer .footer-below {
     text-align: center;
     font-size: 1.2em;
 }
+
+.more-margin {
+    margin-left: 100px;
+}
