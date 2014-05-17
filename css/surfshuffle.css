@@ -4,7 +4,7 @@
 }
 
 @font-face {
-    font-family: 'Muli-Light';
+    font-family: 'Muli Light';
     src: url("../fonts/Muli-Light.ttf");
 }
 
@@ -465,7 +465,7 @@ footer .footer-below {
 }
 
 .description {
-    font-family: "Muli-Light";
+    font-family: "Muli Light", 'Muli', sans-serif;
     margin-top: 20px;
     padding-left: 30px;
     padding-right: 30px;
